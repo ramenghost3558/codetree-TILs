@@ -6,12 +6,10 @@ int main() {
     cin >> a;
 
     for (int i = 1; i <= a; i++) {
-        if (i % 2 == 0) {
-            cout << 1 << endl;
-        } else if (i % 3 == 0) {
-            cout << 1 << endl;
+        if (i % 2 == 0 || i % 3 == 0) {
+            cout << "1 ";
         } else {
-            cout << 0 <<endl;
+            cout << "0 ";
         }
     }
     return 0;
