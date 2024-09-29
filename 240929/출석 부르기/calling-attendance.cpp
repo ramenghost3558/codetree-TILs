@@ -11,6 +11,8 @@ int main() {
         cout << "Tom";
     } else if (n == 3) {
         cout << "Paul";
+    } else {
+        cout << "Vacancy";
     }
     return 0;
 }
